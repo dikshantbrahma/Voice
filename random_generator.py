@@ -2,11 +2,15 @@ from random_word import RandomWords
 import re
 import random
 
+### Python function to generate 'n' random words with minimum length of 5 and which have definitive meaning in dictionary.###
+
 def generate_random_words(n):
   r=RandomWords()
   list_of_words=r.get_random_words(hasDictionaryDef="true", includePartOfSpeech="noun,adjective", minLength=5, limit=n)
   print(list_of_words)
   return list_of_words
+
+### Python function to select one random line among the given statements. ###
 
 def select_paragraph():
   index=random.choice([1,2,3,4,5,6,7,8,9,0])

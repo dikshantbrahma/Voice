@@ -3,6 +3,9 @@ import re
 import math
 from comparison import compare
 from random_generator import generate_random_words, select_paragraph
+
+### Recognizes the audio to generate list of words and call compare function to calculate success percentage ###  
+
 r=sr.Recognizer()
 num=10
 case=1

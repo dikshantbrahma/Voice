@@ -1,4 +1,7 @@
 import re
+
+### Calculates and returns the percentage of words in user_audio and the given_input ###
+
 def compare(user_audio, given_input, length):
   count=0
   user_input = re.sub("[^\w]", " ",  user_audio).split()
