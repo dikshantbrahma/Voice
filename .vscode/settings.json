@@ -1,4 +1,5 @@
 {
   "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true
+  "python.linting.enabled": true,
+  "python.pythonPath": "/home/devil/Desktop/Workstation/incomplete/Voice/venv/bin/python3.7"
 }
